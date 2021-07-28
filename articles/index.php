@@ -4,9 +4,9 @@
     ini_set('display_errors', 0);
     ini_set('error_log', 'Error.log');
 
-    include_once "model.php";
-    include_once "view.php";
-    include_once "controller.php";
+    include_once "classes/model.php";
+    include_once "classes/view.php";
+    include_once "classes/controller.php";
 
     $Controller = new Controller();
 ?>
